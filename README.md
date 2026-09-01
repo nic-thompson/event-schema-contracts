@@ -82,7 +82,7 @@ the similar name: it describes device *provisioning* — `device_id`, `store_id`
 `device_type`, optional `firmware_version`, `registered_at` — and has an
 incompatible field set. Nothing in the SIP path produces it. The two were confused
 once, which is why `sip.registration` exists; see
-[ADR-002](docs/ADR-002-sip-registration-schema.md).
+[ADR-001](docs/ADR-001-sip-registration-schema.md).
 
 In both, `store_id` is what lets downstream consumers project device→store
 membership.
@@ -273,7 +273,7 @@ Supporting documentation:
 
 ```
 docs/
-├── ADR-002-sip-registration-schema.md
+├── ADR-001-sip-registration-schema.md
 ├── base-model-conventions.md
 ├── compatibility-policy.md
 ├── event-lifecycle.md

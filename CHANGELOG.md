@@ -69,7 +69,7 @@ Earlier versions were tagged by hand.
   state its own round-trip time; `Retry-After` is a response header under
   RFC 3261 and never appears on a conforming request. Removed from v1 in place
   rather than cut as v2, because the schema had no producers, no consumers and
-  no persisted events at the time — see ADR-002 Amendment 1.
+  no persisted events at the time — see ADR-001 Amendment 1.
 
 ### Added
 
@@ -80,7 +80,7 @@ Earlier versions were tagged by hand.
   from `(store_id, device_label)`, with the label carried alongside because
   derivation is one-way. `RegistrationStatus` declares only `REGISTERED`: the
   parser never reads responses or the `Expires` header, so no producer can emit
-  anything else. See ADR-002.
+  anything else. See ADR-001.
 
 ### Changed
 

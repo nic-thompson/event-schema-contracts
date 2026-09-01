@@ -1,7 +1,14 @@
-# ADR-002: A dedicated schema for SIP registration telemetry
+# ADR-001: A dedicated schema for SIP registration telemetry
 
 - **Date:** 2026-08-22
 - **Status:** Accepted
+
+> Renumbered from ADR-002 on 2026-09-01. It was the first ADR in this
+> repository and should always have been 001; the number was carried over
+> from `aws-event-pipeline-infra`, where an ADR-001 already existed. ADRs
+> are numbered per repository, so two repositories each having an ADR-001
+> is correct and a repository starting at 002 is not. Commit messages
+> merged before that date still cite the old number.
 
 ## Context
 
